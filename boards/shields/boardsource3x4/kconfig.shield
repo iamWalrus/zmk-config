@@ -16,3 +16,7 @@ config ZMK_LOGGING
 config ZMK_LOG_LEVEL_DBG
     bool "Set log level to debug"
     default y
+
+config ZMK_DEFAULT_TRANSPORT_USB
+    bool "Default to USB as the transport layer"
+    default y
