@@ -9,6 +9,10 @@ config ZMK_USB_HID
     bool "Enable USB HID support"
     default y
 
-config ZMK_DEFAULT_TRANSPORT_USB
-    bool "Default to USB as the transport layer"
+config ZMK_LOGGING
+    bool "Enable logging support"
+    default y
+
+config ZMK_LOG_LEVEL_DBG
+    bool "Set log level to debug"
     default y
