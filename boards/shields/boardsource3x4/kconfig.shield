@@ -9,4 +9,6 @@ config ZMK_USB_HID
     bool "Enable USB HID support"
     default y
 
-
+config ZMK_DEFAULT_TRANSPORT_USB
+    bool "Default to USB as the transport layer"
+    default y
