@@ -1,0 +1,12 @@
+config SHIELD_BOARDSOURCE3X4
+    def_bool $(shields_list_contains, boardsource3x4)
+
+config ZMK_USB
+    bool "Enable USB support"
+    default y
+
+config ZMK_USB_HID
+    bool "Enable USB HID support"
+    default y
+
+
